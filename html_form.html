@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+</head>
+  <style>
+    header {
+      font-family: 'Times new Roman';
+    }
+    input{
+      padding: 3px;
+      width: 100px;
+      font-family: 'Times New Roman';
+      font-size: 8px;
+    }
+    .name{
+      font-family: David;
+      font-size: 13px;
+    }
+    .email{
+      font-family: 'Times New Roman';
+      font-size: 13px;
+    }
+  </style>
+<body>
+  <header>
+    <h2>Registration Form</h2>
+  </header>
+
+  <div class="row">
+    <div class="col">
+      <label class="name"><b>Name</b></label><br>
+    <input class="fname"type="name" id="name" placeholder="Firstname" required><br>
+  </div>
+  <div class="col">
+    <input class="lname"type="name" id="name" placeholder="Lastname" required><br><br>
+  <form>
+    <label class="email"><b>E-mail</b></label><br>
+    <input type="email" name="email" placeholder="E-mail" required><br>
+    <input type="password" name="pass" placeholder="Create Password" required><br>
+    <input type="password" name="confirm_password" placeholder="Confirm Password" required> <br><br>
+
+    <button type="submit">Register</button>
+
+  </form>
+
+</body>
+</html>
